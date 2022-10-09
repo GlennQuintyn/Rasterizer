@@ -128,10 +128,21 @@ int main(int argc, char* args[])
 	float rotationScaler{ 50 };
 
 	//Extra controls output to console
-	std::cout << "\t\t-=EXTRA CONTOLS=-\n";
+	std::cout << "\t\t-=GENERAL CONTROLS=-\n";
+	std::cout << " Hold LMB: to rota camera left/right or go forwad/backwards\n";
+	std::cout << " Hold RMB: to rota camera left/right or go forwad/backwards\n";
+	std::cout << " W/S: to go forwad/backwards respcetivly (this is relative to the camera foward)\n";
+	std::cout << " A/D: to go left/right respcetivly (this is relative to the camera foward)\n";
 	std::cout << " Q/E: to go down/up relative to the camera foward\n";
+
+	std::cout << "\n\t\t-=EXTRA CONTROLS=-\n";
+	std::cout << " R  : to toggle between switch between Software or DirectX rasterizer\n";
+	std::cout << " F  : to change filtering mode (point, linear, anisotropic) DirectX ONLY!!!\n";
+	std::cout << " T  : to toggle transparency DirectX ONLY!!!\n";
+	std::cout << " C  : to toggle between toggle between cullmodes (front, back and no culling)\n";
 	std::cout << " +/-: to increase/decrease the FOV (clamped between 0-180)\n";
-	std::cout << " z  : to toggle between software render modes (lambert phong, only diffuse sample, dept buffer, triangle vertex color interpolation)\n";
+	std::cout << " Z  : to toggle between visualizing modes (lambert phong, only diffuse sample, dept buffer, triangle vertex color interpolation)"
+		"SOFTWARE MODE ONLY!!!\n";
 
 	while (isLooping)
 	{
