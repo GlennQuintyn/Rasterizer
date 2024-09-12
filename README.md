@@ -1,6 +1,13 @@
 # Rasterizer
 
-[video]
+https://github.com/user-attachments/assets/e7515e24-3a49-4d8b-a7d7-e6dd22f0e3ba
+
+___
+The Cyan background is the hardware accelerated version using DirectX11
+The light grey background one is the software (CPU only) implementation
+
+The video showcases the smooth runtime transition between the 2.
+It also shows the differnt culling modes and other visualizing modes mentioned below in the Extra Contols tab
 
 ___
 
